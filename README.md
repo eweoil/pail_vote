@@ -10,40 +10,40 @@ environment:python
 
 import:random,numpy,math
 
-prime.py:Miller Rabin
-```python
+## prime.py:Miller Rabin
+```
 input:n(int)
 output:True or False
 ```
 
-key_product.py
+## key_product.py
 
-```python
+```
 import prime
 input:n(int) # the bits of the prime
 output:public key, private key
 ```
 
-encrypt.py
-```python
+## encrypt.py
+```
 input:public key, plaintext(int)
 output:cipher
 ```
 
-decrypt.py
-```python
+## decrypt.py
+```
 input:private key, cipher(int), N(p*q)
 output:decrypt_text(int)
 ```
 
-add.py
-```python
+## add.py
+```
 input1:222
 input2:333
 output:555(input1+input2)
 ```
 
-vote.py
+## vote.py
 well, all in the program.
 
 目前存在问题：
