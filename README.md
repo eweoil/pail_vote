@@ -4,11 +4,11 @@ a homework , uses Paillier to help voting fairness
 基于Paillier算法的匿名电子投票流程实现
 
 ![image](https://user-images.githubusercontent.com/103557716/202181746-b30ea710-3348-492b-a512-2191ce3da192.png)
-public key(N,g) private key(lambda,u)
+**public key**(N,g) **private key**(lambda,u)
 
-environment:python
+environment:***python***
 
-import:random,numpy,math
+**import:random,numpy,math**
 
 ## prime.py:Miller Rabin
 ```
